@@ -1,4 +1,13 @@
-## Weekly Tech Report - 20151221
+---
+layout: post
+title: "Weekly Tech Report 2015-12-21"
+description: "Weekly Tech Report"
+category: wtr
+tags: [wtr, github, kvm, libvirt, android]
+---
+{% include JB/setup %}
+
+## Weekly Tech Report 2015-12-21
 
 ### Learning
 

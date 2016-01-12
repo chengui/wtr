@@ -1,4 +1,13 @@
-## Weekly Tech Report - 20151228
+---
+layout: post
+title: "Weekly Tech Report 2015-12-28"
+description: "Weekly Tech Report"
+category: wtr
+tags: [wtr, markdown, android, ant, gradle, mustache]
+---
+{% include JB/setup %}
+
+## Weekly Tech Report 2015-12-28
 
 ### Learning
 

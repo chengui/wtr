@@ -1,4 +1,13 @@
-## Weekly Tech Report - 20160104
+---
+layout: post
+title: "Weekly Tech Report 2016-01-04"
+description: "Weekly Tech Report"
+category: wtr
+tags: [wtr, mqtt, android, paho]
+---
+{% include JB/setup %}
+
+## Weekly Tech Report 2016-01-04
 
 ### Learning
 
