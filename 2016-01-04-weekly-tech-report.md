@@ -145,6 +145,7 @@ tags: [wtr, mqtt, android, paho]
 +   [5 Reasons to Replace PowerPoint with Google Slides] [google-slides]
 
     Why makes the switch for PowerPoint to Google Slides:
+
     +   Built For Collaboration
     +   Simple UI Encourage Simpler Presentation
     +   Offline Access for Editing and Presenting
