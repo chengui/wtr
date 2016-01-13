@@ -92,6 +92,7 @@ tags: [wtr, github, kvm, libvirt, android]
     The essential thoughts of meomery allocator are similar, the difference are
     algorithms and metadata. It mentions [ptmalloc], [tcmalloc], and [jemalloc],
     also summarizes three essential thoughts:
+
     + basic design: define memory pool by chunks, small memory sorted by size 
       class, big memory managed by pages (4K)
     + recycle and prediction: merge small memory when neccessary, keep memory on
@@ -216,6 +217,7 @@ tags: [wtr, github, kvm, libvirt, android]
         <console type='pty'>
             <target type='serial' port='0'/>
         </console>
+
     or you can do more, with appending `console=ttyS0,115200` to the guest kernel
     command line, and then starting it, see [here] [problem-virdev]:
 
@@ -230,6 +232,7 @@ tags: [wtr, github, kvm, libvirt, android]
 
         $ virsh domiflist <domain>
         $ arp -e
+
     or you can just read the lease file:
 
         $ cat /var/lib/libvirt/dnsmasq/default.leases
@@ -256,6 +259,7 @@ tags: [wtr, github, kvm, libvirt, android]
         byte[] bytesOfMessage = yourString.getBytes("UTF-8");
         MessageDigest md = MessageDigest.getInstance("MD5");
         byte[] thedigest = md.digest(bytesOfMessage);
+
     Sometimes you may create hex string also, try following code to convert a
     byte to hex string, it avoids hex string length to be 31, missing leading 0
 
@@ -268,6 +272,7 @@ tags: [wtr, github, kvm, libvirt, android]
     You can use [StringBuilder.insert] doing this:
 
         _sb.insert(0, "Hello ");
+
     or you can use + operator on String:
 
         String s2 = "Hello " + _s;
@@ -282,6 +287,7 @@ tags: [wtr, github, kvm, libvirt, android]
         oos.writeObject(obj);
         oos.reset();
         oos.flush();
+
     see [JDK-4363937: ObjectOutputStream is creating a memory leak] [jdk-4363937]
 
 [problem-oom]: http://www.coderanch.com/t/504342/java-io/java/Outofmemory-Error-ObjectInputStream
