@@ -38,8 +38,8 @@ tags: [wtr, vagrant, jenkins, virtualbox, ssl, msbuild, nant]
     In this series, it will start with Jenkins, Git and MSBuild to setup
     automatic build service and unit test on Windows:
 
-    > [Getting Started with Jenkins, Git and MSBuild] [andyfrench-start]
-    > [Automatically triggering a Jenkins build on Git commit] [andyfrench-git]
+    > [Getting Started with Jenkins, Git and MSBuild] [andyfrench-start]  
+    > [Automatically triggering a Jenkins build on Git commit] [andyfrench-git]  
     > [Running NUnit tests with Jenkins] [andyfrench-nunit]
 
 [andyfrench-start]: http://www.andyfrench.info/2015/03/getting-started-with-jenkins-git-and.html
@@ -50,8 +50,8 @@ tags: [wtr, vagrant, jenkins, virtualbox, ssl, msbuild, nant]
 
     A Chinese blog with brief introduction to Jenkins:
 
-    > [Jenkins, CruiseControl and Hudson] [jenkins-brief]
-    > [Jenkins Basic] [jenkins-brief-2]
+    > [Jenkins, CruiseControl and Hudson] [jenkins-brief]  
+    > [Jenkins Basic] [jenkins-brief-2]  
     > [Jenkins Questions] [jenkins-brief-3]
 
 [jenkins-brief]: http://blog.csdn.net/OnlyQi/article/details/7340149
@@ -79,7 +79,7 @@ tags: [wtr, vagrant, jenkins, virtualbox, ssl, msbuild, nant]
     then setup a Jenkins build job on any code changes from your repository and
     run the MSBuild script.
 
-    > [Continuous Integration with MSBuild and Jenkins – Part 1] [ci-msbuild]
+    > [Continuous Integration with MSBuild and Jenkins – Part 1] [ci-msbuild]  
     > [Continuous Integration with MSBuild and Jenkins – Part 2] [ci-msbuild-2]
 
 [ci-msbuild]: http://www.infoq.com/articles/MSBuild-1
@@ -91,7 +91,7 @@ tags: [wtr, vagrant, jenkins, virtualbox, ssl, msbuild, nant]
     installing Visual Studio. Although NuGet can be used as a long term solution
     , this article provides a workaroud for short term solution.
 
-    > [Building .NET projects is a world of pain] [build-dotnet]
+    > [Building .NET projects is a world of pain] [build-dotnet]  
     > [A less terrible .NET project build with NuGet] [dotnet-nuget]
 
 [build-wo-vs]: http://nickberardi.com/a-net-build-server-without-visual-studio/
