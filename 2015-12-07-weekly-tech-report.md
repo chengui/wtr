@@ -3,7 +3,7 @@ layout: post
 title: "Weekly Tech Report 2015-12-07"
 description: "Weekly Tech Report"
 category: wtr
-tags: [wtr, vagrant, gradle, jenkins, android]
+tags: [wtr, vagrant, jenkins, virtualbox, ssl, msbuild, nant]
 ---
 {% include JB/setup %}
 
