@@ -266,3 +266,10 @@ tags: [wtr, vagrant, gradle, jenkins, android]
         + Easy to get started
 
 [problem-8]: http://stackoverflow.com/questions/476163/nant-or-msbuild-which-one-to-choose-and-when
+
+
+[![Creative Commons License][CC png]][CC BY-NC 4.0]<br/>
+This work is licensed under a [CC BY-NC 4.0][] License.
+
+[cc png]: https://i.creativecommons.org/l/by-nc/4.0/88x31.png
+[cc by-nc 4.0]: http://creativecommons.org/licenses/by-nc/4.0/
