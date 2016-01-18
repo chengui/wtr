@@ -64,6 +64,17 @@ tags: [wtr, mqtt, android, paho]
 [mqtt-man]: http://mosquitto.org/man/mqtt-7.html
 [mqtt-iot]: https://www.ibm.com/developerworks/cn/websphere/library/techarticles/1109_wangb_mqandroid/1109_wangb_mqandroid.html
 
++   [IoT Standards] [iot-standards]
+
+    The IoT Working Group provides open source implementations for IoT protocols
+    such as [CoAP], [ETSI SmartM2M], [MQTT] or [LwM2M].
+
+[iot-standards]: http://iot.eclipse.org/standards
+[coap]: http://iot.eclipse.org/standards#coap
+[etsi smartm2m]: http://iot.eclipse.org/standards#etsi-smartm2m
+[mqtt]: http://iot.eclipse.org/standards#mqtt
+[lwm2m]: http://iot.eclipse.org/standards#oma-lwm2m
+
 ### Article
 
 +   [Reading Notes of "TCP/IP Illustrated"] [read-notes-tcp]
@@ -170,6 +181,24 @@ tags: [wtr, mqtt, android, paho]
 
     A client library for the MQTT protocal, written in JavaScript for node.js
     and the browser, it's under MIT license
+
++   [RSMB](https://github.com/MichalFoksa/rsmb)
+
+    While there are few available MQTT brokers, it seems there is only one
+    MQTT-SN broker called Really Small Message Broker, or RSMB.
+
++   [Mosquitto](http://www.eclipse.org/mosquitto/)
+
+    The Mosquitto project provides an open-source implementation of a MQTT
+    broker and also a MQTT client library.
+
+    > [Mosquitto Official Site](http://mosquitto.org/)
+
++   [CloudMQTT Website](https://github.com/CloudMQTT/cloudmqtt-website)
+
+    CloudMQTT is a product to use mosquitto to form cloud message solution,
+    and it is not open source. Here is the link of its website, which is
+    open source, also called Flat UI
 
 ### Problems
 
