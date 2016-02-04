@@ -215,3 +215,10 @@ tags: [wtr, jenkins, docker, ant, gradle, android, kvm, libvirt]
         $ su -c ' yum --nogpgcheck install $(find kojipkgs.fedoraproject.org/ -name "*.rpm") '
 
 [problem-5]: http://stackoverflow.com/questions/5240846/latest-ant-in-fedora-14-is-1-7-but-i-need-ant-1-8
+
+
+[![Creative Commons License][CC png]][CC BY-NC 4.0]<br/>
+This work is licensed under a [CC BY-NC 4.0][] License.
+
+[cc png]: https://i.creativecommons.org/l/by-nc/4.0/88x31.png
+[cc by-nc 4.0]: http://creativecommons.org/licenses/by-nc/4.0/
