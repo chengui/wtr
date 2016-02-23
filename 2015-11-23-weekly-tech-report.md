@@ -3,7 +3,7 @@ layout: post
 title: "Weekly Tech Report 2015-11-30"
 description: "Weekly Tech Report"
 category: wtr
-tags: [wtr, push, gitbook, gcm/c2dm, lemp]
+tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
 ---
 {% include JB/setup %}
 
@@ -46,6 +46,16 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp]
 
 [lemp]: https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-6
 
++   [Methodology of PKM] [pkm-method]
+
+    Personal Knowledge Management is a collection of processes that a person 
+    uses to gather, classify, store, search, retrieve, and share knowledge in 
+    his or her daily activitiesand the way in which these processes support work
+    activities.
+    This article presents some good practices and methods.
+
+[pkm-method]: http://www.jianshu.com/p/dbdac17eb9ff
+
 ### Article
 
 +   [What and Where Are Heap And Stack?] [heap-stack]
@@ -80,8 +90,30 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp]
 
 [push-tutor]: https://blog.serverdensity.com/android-push-notifications-tutorial/
 
++   [Tips For PKM Toolkit] [pkm-tips]
+
+    How to retrieve, store, learn, and share knowledge.
+
+[pkm-tips]: http://www.cnblogs.com/lanxuezaipiao/p/3504408.html
+
 ### Blog
 
++   [PureWeber](https://www.pureweber.com/)
+
+    PureWeber.com is the official website of <<Web Developing>> course in Harbin Institute of Technology Computer School.
+
+    > [Intro to PKM] [pkm-intro]  
+    > [Intro to PKM (slides)] [pkm-intro-slides]
+
+[pkm-intro]: https://www.pureweber.com/article/pkm-introduction/
+[pkm-intro-slides]: https://docs.google.com/presentation/d/1BnUm6WF0uTNmHkb-qhOYf24mdcvsSR-t-qaQ00OvuJ0/edit#slide=id.g2205b81_0_119
+
++   [MoonLight](http://www.williamlong.info/)
+
+    PKM Methods:
+    > [My PKM Software](http://www.williamlong.info/archives/2176.html)  
+    > [PKM Based On Dropbox](http://www.williamlong.info/archives/2160.html)  
+    > [PKM Based On Google Reader](http://www.williamlong.info/archives/2172.html)
 
 ### Docs
 
@@ -98,6 +130,24 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp]
     Summary for LeetCode problems.
 
 [gitbook-leetcode]: https://www.gitbook.com/book/siddontang/leetcode-solution
+
++   [Recommend some PKM tools] [pkm-zhihu]
+
+    Google Reader, Douban, Weibo, Blog, MindManager, SNS, Delicious, Kindle,
+    Scrivener, EverNote, Dbank, T Pan, etc.
+
+    > [Definition for PKM](http://www.douban.com/note/53080379/)
+
+[pkm-zhihu]: http://www.zhihu.com/question/19555712
+
++   [PKM Software Summary] [pkm-software]
+
+    PKM Software to improve efficiency, like EverNote, Miku, Youdao, etc.
+
+    > [pinpkm](http://www.cnblogs.com/pinpkm/)  
+    > [wiz](http://www.appinn.com/wiz/)
+
+[pkm-software]: http://www.pc6.com/z/pkm/
 
 ### Open Source
 
@@ -117,11 +167,22 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp]
 +   [PhpMQTTClient](https://github.com/tokudu/PhpMQTTClient)
 
     This is a simple example of how send MQTT messages using PHP.
-    See http://tokudu.com/2010/how-to-implement-push-notifications-for-android
+    See <http://tokudu.com/2010/how-to-implement-push-notifications-for-android>
 
 +   [Android Push Notification](https://sourceforge.net/projects/androidpn/)
 
     An open source project to provide push notification support for Android -- a xmpp based notification server and a client tool kit.
+
++   [OpenNote](https://github.com/FoxUSA/OpenNote)
+
+    OpenNote was built to be an open web-based alternative to Microsoft OneNote 
+    (T) and EverNote. <https://foxusa.github.io/OpenNote/OpenNote/>
+
++   [Raneto](https://github.com/gilbitron/Raneto)
+
+    Markdown powered Knowledgebase for Nodejs. 
+    > <http://docs.raneto.com/>
+    > <http://kb.status.io/>
 
 ### Problems
 
