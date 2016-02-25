@@ -138,6 +138,15 @@ tags: [wtr, mqtt, android, paho]
 
 [mqtt-coap]: https://eclipse.org/community/eclipse_newsletter/2014/february/article2.php
 
++   [The Seven Best MQTT Client Tools] [mqtt-clients]
+
+    Give a brief overview of the best MQTT client tools for different platforms
+    and highlight special features.
+
+    > [MQTT Client mqtt.io](http://www.mqtt.io/)
+
+[mqtt-clients]: http://www.hivemq.com/blog/seven-best-mqtt-client-tools
+
 ### Blog
 
 +   [Learning Eclipse Paho: MQTT Implementation] [learning-paho]
