@@ -117,6 +117,23 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
 
 ### Docs
 
++   [Apple Push Notification Service] [push-apns]
+
+    Apple Push Notification service (APNs) is the centerpiece of the remote 
+    notifications feature. It is a robust and highly efficient service for 
+    propagating information to iOS (and, indirectly, watchOS), tvOS, and OS X 
+    devices.
+
+[push-apns]: https://developer.apple.com/library/mac/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW9
+
++   [HTTP Live Streaming Overview] [ios-hls]
+
+    HTTP Live Streaming lets you send audio and video over HTTP from an ordinary
+    web server for playback on iOS-based devices and on desktop computers (Mac 
+    OS X).
+
+[ios-hls]: https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008332-CH1-SW1
+
 ### Reading
 
 +   [A Programmer Prepares] [gitbook-prepares]
@@ -159,6 +176,10 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
 
     The simplest way to turn an idea into a book
 
++   [Pullover](https://github.com/cgrossde/Pullover)
+
+    The unofficial multi-platform Pushover desktop client
+
 +   [AndroidPushNotificationsDemo](https://github.com/tokudu/AndroidPushNotificationsDemo)
 
     A example of an android app that receives push notifications using MQTT.
@@ -183,6 +204,12 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
     Markdown powered Knowledgebase for Nodejs. 
     > <http://docs.raneto.com/>
     > <http://kb.status.io/>
+
++   [QuickBlox](https://github.com/QuickBlox)
+
+    Q-municate: The open-source, cross platform, video calling and instant 
+    messaging app.  
+    <http://quickblox.com>
 
 ### Problems
 
