@@ -117,6 +117,20 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
 
 ### Docs
 
++   [Push technology] [wiki-push]
+
+    Push, or server push, describes a style of Internet-based communication 
+    where the request for a given transaction is initiated by the publisher 
+    or central server.
+
+[wiki-push]: https://en.wikipedia.org/wiki/Push_technology
+
++   [Push API] [push-api]
+
+    API for sending of a push message to a webapp via a push service.
+
+[push-api]: http://www.w3.org/TR/push-api/
+
 +   [Apple Push Notification Service] [push-apns]
 
     Apple Push Notification service (APNs) is the centerpiece of the remote 
@@ -166,6 +180,18 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
 
 [pkm-software]: http://www.pc6.com/z/pkm/
 
++   [Is there an existing push notification server solution] [quora-push]
+
+    [Countly], [StreamIn], [UrbanAirship], [Parse], Localytics, [jeapie]
+
+
+[quora-push]: https://www.quora.com/Is-there-an-existing-push-notification-server-solution-supporting-iOS-android-windows-phone
+[countly]: http://count.ly/
+[streamin]: http://streamin.io/
+[urbanairship]: http://urbanairship.com/
+[parse]: http://parse.com/
+[jeapie]: https://jeapie.com/
+
 ### Open Source
 
 +   [Choosing An Open Source License](http://choosealicense.com/)
@@ -192,17 +218,19 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
 
 +   [Android Push Notification](https://sourceforge.net/projects/androidpn/)
 
-    An open source project to provide push notification support for Android -- a xmpp based notification server and a client tool kit.
+    An open source project to provide push notification support for Android -- 
+    a xmpp based notification server and a client tool kit.
 
 +   [OpenNote](https://github.com/FoxUSA/OpenNote)
 
     OpenNote was built to be an open web-based alternative to Microsoft OneNote 
-    (T) and EverNote. <https://foxusa.github.io/OpenNote/OpenNote/>
+    (T) and EverNote.  
+    <https://foxusa.github.io/OpenNote/OpenNote/>
 
 +   [Raneto](https://github.com/gilbitron/Raneto)
 
     Markdown powered Knowledgebase for Nodejs. 
-    > <http://docs.raneto.com/>
+    > <http://docs.raneto.com/>  
     > <http://kb.status.io/>
 
 +   [QuickBlox](https://github.com/QuickBlox)
@@ -210,6 +238,36 @@ tags: [wtr, push, gitbook, gcm/c2dm, lemp, pkm]
     Q-municate: The open-source, cross platform, video calling and instant 
     messaging app.  
     <http://quickblox.com>
+
++   [android-push](https://github.com/zz7zz7zz/android-push)
+
+    Push service for single tunnel and multiple APPs.
+
++   [uniqush-push](https://github.com/uniqush/uniqush-push/)
+
+    Uniqush is a free and open source software which provides a unified push
+    service for server-side notification to apps on mobile devices.  
+    <http://uniqush.org>
+
++   [pns](https://github.com/Turksat/pns)
+
+    Distributed Push Notification Service for GCM and APNS.
+
++   [gcm](https://github.com/google/gcm)
+
+    Google Cloud Messaging - client libraries and sample implementations.  
+    <https://developers.google.com/cloud-messaging>
+
++   [UnifiedPush Server](https://github.com/aerogear/aerogear-unifiedpush-server)
+
+    The AeroGear UnifiedPush Server is a server that allows sending push 
+    notifications to different (mobile) platforms. <http://aerogear.org/push>  
+    <https://github.com/C-B4/unifiedpush-server>
+
++   [airnotifier](https://github.com/airnotifier/airnotifier)
+
+    Easy to use push notifications for iOS, Android and Windows.  
+    <http://airnotifier.github.io>
 
 ### Problems
 
