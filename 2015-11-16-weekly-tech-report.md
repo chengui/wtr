@@ -17,6 +17,12 @@ tags: [wtr, android, process, gdb, memory]
 
 [memory-faq]: http://landley.net/writing/memory-faq.txt
 
++   [Unix Programming FAQ (v1.24)] [unix-faq]
+
+    FAQ for Unix/Linux programmer.
+
+[unix-faq]: http://www.lib.ru/UNIXFAQ/unixprogrfaq.txt
+
 +   [Understanding the kill command] [proc-kill]
 
     This article covers the Linux kill command and how it sends signals to 
@@ -65,8 +71,67 @@ tags: [wtr, android, process, gdb, memory]
 [memory-usage]: http://android.jobbole.com/80926/
 [memory-summary]: http://kingbo203.iteye.com/blog/1988636
 
+
++   [pipe(7) - Linux man page] [pipe-man]
+
+    > [Interprocess Communication (IPC), Pipes] [pipe-ipc]
+    > [Pipe, Fork, Exec and Related Topics] [pipe-fork]
+    > [Pipes and FIFOs] [pipe-chemnet]
+    > [C Tutorial: Pipes] [pipe-rutgers]
+    > [Programming with pipes] [pipe-program]
+
+[pipe-man]: http://linux.die.net/man/7/pipe
+[pipe-ipc]: https://www.cs.cf.ac.uk/Dave/C/node23.html
+[pipe-fork]: http://www.cs.uleth.ca/~holzmann/C/system/pipeforkexec.html
+[pipe-chemnet]: http://www.chemie.fu-berlin.de/chemnet/use/info/libc/libc_10.html
+[pipe-rutgers]: https://www.cs.rutgers.edu/~pxk/416/notes/c-tutorials/pipe.html
+[pipe-program]: http://crasseux.com/books/ctutorial/Programming-with-pipes.html
+
+### Course
+
++   [Caltech Computer Science] [caltech-comp]
+
+    The Computer Science Course for Caltech.edu
+
+[caltech-comp]: http://users.cms.caltech.edu/~donnie/
+
++   [USNA Computer Science] [usna-comp]
+
+    Including *Systems Programming*, *Operating Systems*.
+    > [Lab 06: Fork-Exec-Wait, Repeat!] [usna-fork]
+
+[usna-comp]: http://www.usna.edu/Users/cs/aviv/
+[usna-fork]: http://www.usna.edu/Users/cs/aviv/classes/ic221/s14/lab/06/lab.html
+
++   [Regina Computer Science] [regina-comp]
+
+    > [CS330 Intro to Processes, Forks & Exec] [regina-fork]
+
+[regina-comp]: http://www.cs.uregina.ca/Links/class-info/330/
+[regina-fork]: http://www.cs.uregina.ca/Links/class-info/330/Fork/fork.html
+
 ### Article
 
++   [Reap zombie processes using a SIGCHLD handler] [signal-sigcld]
+
+    How to install a SIGCHLD handler for reaping zombie processes
+
+    > [Linux Signals – Example C Program to Catch Signals] [signal-linux]
+    > [System Interface Guide] [singal-syscall]
+
+[signal-sigcld]: http://www.microhowto.info/howto/reap_zombie_processes_using_a_sigchld_handler.html
+[signal-linux]: http://www.thegeekstuff.com/2012/03/catch-signals-sample-c-code/
+[signal-syscall]: https://docs.oracle.com/cd/E19455-01/806-4750/signals-7/index.html
+
++   [YoLinux Tutorial: Fork, Exec and Process control] [yolinux-proc]
+
+    fork(), vfork(), clone(), wait(), system(), popen(), exec(), execve(), 
+    execl(), execlp(), execv(), execvp()
+
+    > [Linux pipe] [pipe-csdn]
+
+[yolinux-proc]: http://www.yolinux.com/TUTORIALS/ForkExecProcesses.html
+[pipe-csdn]: http://blog.csdn.net/cation/article/details/2282866
 
 ### Blog
 
@@ -98,9 +163,20 @@ tags: [wtr, android, process, gdb, memory]
 [android-debugging]: http://developer.android.com/tools/debugging/debugging-memory.html
 [android-monitor]: http://developer.android.com/tools/performance/memory-monitor/index.html
 
++   [libc: Signal Handling] [libc-signal]
+
+    The GNU C Library defines a variety of signal types to be handled by developer
+
+    > [kill(2) - Linux man page] [man-kill]
+
+[libc-signal]: http://www.gnu.org/software/libc/manual/html_node/Signal-Handling.html
+[man-kill]: http://linux.die.net/man/2/kill
+
 ### Reading
 
 +   [Dalvik VM Internals] [dalvik-internals]
+
+    Dalvik means Android Runtime Virtual Machine
 
 [dalvik-internals]: http://fiona.dmcs.pl/podyplomowe_smtm/smob3/Presentation-Of-Dalvik-VM-Internals.pdf
 
@@ -136,6 +212,61 @@ tags: [wtr, android, process, gdb, memory]
 
 [problem-4]: http://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android
 [android-docs]: http://developer.android.com/training/articles/memory.html
+
++   [Which child process send SIGCHLD] [problem-5]
+
+    > waitpid(): on success, returns the process ID of the child whose state has
+    > changed;
+
+[problem-5]: http://stackoverflow.com/questions/19814906/which-child-process-send-sigchld
+
++   [Understanding SIGCHLD when the child process terminates] [problem-5]
+
+    The return value from `sleep()`:
+
+    > Zero if the requested time has elapsed, or the number of seconds left to 
+    > sleep, if the call was interrupted by a signal handler.
+
+[problem-5]: http://stackoverflow.com/questions/14266485/understanding-sigchld-when-the-child-process-terminates
+
++   [C fork/exec with non-blocking pipe IO] [problem-6]
+
+    One should **NOT** be trying to pass a child process a nonblocking descriptor.
+
+    > [Example of nonblock in C] [problem-61]
+
+[problem-6]: http://stackoverflow.com/questions/3326725/c-fork-exec-with-non-blocking-pipe-io
+[problem-61]: http://www.chiark.greenend.org.uk/~peterb/linux/nonblock/pipe-testnonblock.c
+
++   [How to make child process die after parent exits?] [problem-7]
+
+    + prctl(PR_SET_PDEATHSIG, SIGHUP);
+    + TCP socket/lockfile polling
+    + exchange 'parent' and 'child' process code
+    + pipe communication
+    + setgpid()
+    + ...
+
+    > [Designing a monitor process for monitoring and restarting processes] [problem-71]
+    > [Grouping child processes with setgpid()] [problem-72]
+    > [How can I handle sigchld in C] [problem-73]
+    > [how to kill all child when parent exits] [problem-74]
+
+
+[problem-7]: http://stackoverflow.com/questions/284325/how-to-make-child-process-die-after-parent-exits
+[problem-71]: http://stackoverflow.com/questions/4126401/designing-a-monitor-process-for-monitoring-and-restarting-processes
+[problem-72]: http://stackoverflow.com/questions/16639275/grouping-child-processes-with-setgpid
+[problem-73]: http://stackoverflow.com/questions/7171722/how-can-i-handle-sigchld-in-c/7171836#7171836
+[problem-74]: http://compgroups.net/comp.unix.programmer/how-to-kill-all-child-when-parent-exits/36841
+
++   [How to send a simple string between two programs using pipes?] [problem-8]
+
+    Creating a FIFO by using the `mkfifo()` library function.
+
+    > [UNIX Pipes Between Child Processes] [problem-81]
+
+[problem-8]: http://stackoverflow.com/questions/2784500/how-to-send-a-simple-string-between-two-programs-using-pipes
+[problem-81]: http://stackoverflow.com/questions/5060350/unix-pipes-between-child-processes
 
 
 [![Creative Commons License][CC png]][CC BY-NC 4.0]<br/>
