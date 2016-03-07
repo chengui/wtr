@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Weekly Tech Report 2015-11-23"
+title: "Weekly Tech Report 2015-11-16"
 description: "Weekly Tech Report"
 category: wtr
 tags: [wtr, android, process, gdb, memory]
 ---
 {% include JB/setup %}
 
-## Weekly Tech Report 2015-11-30
+## Weekly Tech Report 2015-11-16
 
 ### Learning
 
@@ -179,6 +179,12 @@ tags: [wtr, android, process, gdb, memory]
     Dalvik means Android Runtime Virtual Machine
 
 [dalvik-internals]: http://fiona.dmcs.pl/podyplomowe_smtm/smob3/Presentation-Of-Dalvik-VM-Internals.pdf
+
+### Open Source
+
++   [chromeThread](https://github.com/lincleejun/chromeThread)
+
+    chromeThread from open source project chrome browser.
 
 ### Problems
 
