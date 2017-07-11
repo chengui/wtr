@@ -1,11 +1,16 @@
 ---
 layout: post
-title: "Weekly Tech Report 2015-11-16"
+title: "Weekly Tech Report 2015-11-09"
+date: 2015-11-09
 description: "Weekly Tech Report"
 category: wtr
-tags: [wtr, android, process, gdb, memory]
+tags: wtr android process gdb memory
+excerpt: wtr
+mathjax: true
 ---
-{% include JB/setup %}
+
+* content
+{:toc}
 
 ## Weekly Tech Report 2015-11-16
 

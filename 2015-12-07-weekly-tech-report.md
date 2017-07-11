@@ -1,11 +1,16 @@
 ---
 layout: post
-title: "Weekly Tech Report 2015-12-07"
+title: "Weekly Tech Report 2015-11-09"
+date: 2015-11-09
 description: "Weekly Tech Report"
 category: wtr
-tags: [wtr, vagrant, jenkins, virtualbox, ssl, msbuild, nant]
+tags: wtr vagrant jenkins virtualbox ssl msbuild nant
+excerpt: wtr
+mathjax: true
 ---
-{% include JB/setup %}
+
+* content
+{:toc}
 
 ## Weekly Tech Report 2015-12-07
 

@@ -1,11 +1,16 @@
 ---
 layout: post
-title: "Weekly Tech Report 2016-01-04"
+title: "Weekly Tech Report 2015-11-09"
+date: 2015-11-09
 description: "Weekly Tech Report"
 category: wtr
-tags: [wtr, mqtt, android, paho]
+tags: wtr github kvm libvirt android
+excerpt: wtr
+mathjax: true
 ---
-{% include JB/setup %}
+
+* content
+{:toc}
 
 ## Weekly Tech Report 2016-01-04
 
